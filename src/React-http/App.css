@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-transform: capitalize;
+}
+
+button{
+  padding:20px;
+  cursor: pointer;
+  border-radius: 14px;
+  background-color: #ff390a7a;
+}
+
+button:hover{
+  background-color: black;
+  color:white;
+}
+
+input{
+  padding:20px;
+  background-color: #0000004a;
+  margin:10px 0px;
+  border:none;
+  outline:none;
+  border-radius:17px;
+  font-family: cursive;
+  font-weight: 700;
+}
+
+textarea{
+  padding:20px;
+  background-color: #d2c0ffcf;
+  margin:20px 0px;
+  border:none;
+  outline:none;
+  border-radius:17px;
+  width: 702px;
+  height: 61px;
+  font-family: cursive;
+  font-weight: 700;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

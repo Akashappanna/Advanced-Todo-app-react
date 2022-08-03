@@ -1,0 +1,17 @@
+.error{
+    color:red;
+    text-align: center;
+    font-size: 12px;
+    margin:auto;
+}
+
+.invalid input{
+    background-color: #fb000087;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+button:disabled:hover{
+    background-color: red;
+}
